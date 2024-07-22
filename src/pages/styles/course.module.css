@@ -1,0 +1,507 @@
+.head {
+    padding: 50px;
+    padding-top: 0px;
+    background-color: rgba(2, 73, 81, 1);
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+}
+
+.titleRating {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.titleRating h1 {
+    font-size: 4rem;
+    font-weight: 400;
+    width: 58%;
+    margin-bottom: 40px;
+}
+
+.rating {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.rating .stars * {
+    font-size: 40px;
+}
+
+.rating p {
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.titleAbout {
+    width: 55%;
+}
+
+.titleAbout p {
+    letter-spacing: 1px;
+    display: none;
+}
+.titleAbout .mainPara{
+    display: block;
+}
+
+
+.body {
+    position: relative;
+    background-color: rgba(174, 221, 229, 1);
+    padding: 50px;
+}
+
+.courseContent {
+    border: 2px solid rgb(0, 0, 0, 0.7);
+    padding: 25px;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    width: 50%;
+}
+
+.body h3 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.contentPoints {
+    display: flex;
+}
+
+.contentPoints ul:first-child {
+    padding-right: 100px;
+}
+
+.contentPoints ul li {
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 40px;
+}
+
+
+.courseStructure {
+    padding: 50px 0px;
+}
+
+.courseStructureTable {
+    border-radius: 15px;
+    background-color: rgba(16, 164, 176, 0.4);
+}
+
+.courseStructureTable {
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+}
+
+.courseStructureTable div li {
+    padding: 15px;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.courseStructureTable div li:first-child {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.courseStructureTable div li:last-child {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.courseStructureTable div li:hover {
+    background-color: rgba(16, 164, 176, 1);
+}
+
+.courseAbout p,
+.courseAbout ul li {
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    line-height: 35px;
+}
+
+.floatingDiv {
+    position: absolute;
+    background-color: rgba(16, 164, 176, 1);
+    border-radius: 15px;
+    right: 30px;
+    top: -150px;
+    box-shadow: 1px 1px 8px 8px rgb(0, 0, 0, 0.3);
+}
+
+.videoDiv {
+    width: 600px;
+    border-radius: 15px;
+    /* aspect-ratio: 1.4; */
+}
+
+.pricingDiv {
+    padding: 20px;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 0px 20px;
+}
+
+.discountedPrice {
+    font-size: 3rem;
+    color: white;
+    font-weight: bolder;
+}
+
+.actualPrice {
+    font-size: 1.8rem;
+    color: white;
+    text-decoration: line-through;
+}
+
+.discountAmnt {
+    font-size: 2rem;
+    color: rgba(150, 72, 52, 1);
+    font-weight: 500;
+}
+
+.buyNow {
+    border: none;
+    border-radius: 20px;
+    padding: 15px 20px;
+    margin-top: 25px;
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    outline: none;
+    background-color: rgba(150, 72, 52, 1);
+    width: 100%;
+    box-sizing: border-box;
+    transition: all 300ms ease-in-out;
+}
+
+.buyNow:hover {
+    box-shadow: 1px 1px 8px 8px rgb(0, 0, 0, 0.3);
+    background-color: rgb(105, 49, 35);
+}
+
+
+@media screen and (max-width: 1405px) {
+    .videoDiv {
+        width: 500px;
+    }
+
+    .price {
+        padding: 0px;
+    }
+
+    .discountedPrice {
+        font-size: 2.8rem;
+    }
+
+    .actualPrice {
+        font-size: 1.6rem;
+    }
+
+    .discountAmnt {
+        font-size: 1.8rem;
+    }
+
+}
+
+@media screen and (max-width: 1180px) {
+    .courseContent ul {
+        padding-left: 30px;
+    }
+
+    .contentPoints {
+        justify-content: space-between;
+    }
+
+    .courseContent ul:first-child {
+        padding-right: 20px;
+    }
+
+    .videoDiv {
+        width: 450px;
+    }
+
+    .discountedPrice {
+        font-size: 2.6rem;
+    }
+
+    .actualPrice {
+        font-size: 1.4rem;
+    }
+
+    .discountAmnt {
+        font-size: 1.6rem;
+    }
+    .titleAbout {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    
+    .titleAbout p {
+        width: 55%;
+        margin-top: 0px;
+        font-size: 1rem;
+        display: block;
+    }
+    
+    .titleAbout p:first-child {
+        width: 100%;
+        margin-top: 16px;
+        margin-bottom: 5px;
+    }
+    .titleAbout .mainPara{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1180px) {
+    .floatingDiv {
+        right: 15px;
+    }
+
+    .courseContent {
+        width: 45%;
+    }
+
+    .body {
+        padding-left: 40px;
+    }
+
+}
+@media screen and (max-width: 1005px) {
+
+    .body{
+        padding-top: 0px;
+    }
+    
+    .floatingDiv{
+        position: relative;
+        width: 100%;
+        left: auto;
+        top: -70px;
+        right: auto;
+    }
+    .videoDiv{
+        width: 100%;
+    }
+    .courseContent{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .titleAbout p{
+        display: none;
+    }
+    .titleAbout .mainPara{
+        display: block;
+        width: 100%;
+    }
+    .titleAbout{
+        margin-bottom: 50px;
+    }
+
+    .pricingDiv{
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        justify-content: space-between;
+        padding-top: 0px;
+    }
+    .price{
+        width: 60%;
+    }
+    .discountedPrice{
+        font-size: 3rem;
+    }
+    .actualPrice {
+        font-size: 1.8rem;
+    }
+    
+    .discountAmnt {
+        font-size: 2rem;
+    }
+    .buyNow{
+        width: 35%;
+    }
+}
+@media screen and (max-width: 910px) {
+    .discountedPrice{
+        font-size: 2.8rem;
+    }
+    .actualPrice {
+        font-size: 1.6rem;
+    }
+    
+    .discountAmnt {
+        font-size: 1.8rem;
+    }
+}
+@media screen and (max-width: 835px) {
+    .buyNow{
+        width: 30%;
+        font-size: 1.8rem;
+    }
+    .price{
+        width: 68%;
+        align-items: baseline;
+    }
+}
+@media screen and (max-width: 780px) {
+    .rating .stars *{
+        font-size: 25px;
+    }
+    .titleRating h1{
+         width: 75%;
+    }
+    .titleRating{
+        justify-content: space-between;
+    }
+    
+    .discountedPrice{
+        font-size: 2.7rem;
+    }
+    .actualPrice {
+        font-size: 1.5rem;
+    }
+    
+    .discountAmnt {
+        font-size: 1.7rem;
+    }
+}
+@media screen and (max-width: 750px) {
+    .pricingDiv{
+        flex-direction: column;
+        padding-top: 20px;
+    }
+    .price{
+        width: 100%;
+    }
+    .buyNow{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 650px) {
+
+    .courseStructureTable li{
+        display: flex;
+        align-items: center;
+    }
+    .courseStructureTable li span:last-child{
+        font-size: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 615px) {
+    .head,.body{
+        padding: 30px;
+        padding-top: 0px;
+    }
+}
+@media screen and (max-width: 580px) {
+    .head,.body{
+        padding: 15px;
+        padding-top: 0px;
+    }
+    .titleRating{
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 30px;
+    }
+    .titleRating h1{
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    .rating{
+        flex-direction: row;
+        align-items: center;
+    }
+    .rating p{
+        margin: 0px;
+        margin-left: 10px;
+    }
+    .courseContent{
+        margin-top: -10px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .head{
+        margin-bottom: 30px;
+    }
+    .body h3{
+        font-size: 2rem;
+    }
+    .courseAbout p,.courseAbout ul li{
+        font-size: 1rem;
+    }
+    .courseContent{
+        padding: 15px;
+    }
+    .contentPoints ul li{
+        font-size: 1.2rem;
+    }
+
+    .courseStructureTable li span{
+        font-size: 1.1rem;
+    }
+    .courseStructureTable li span:last-child{
+        font-size: 0.5rem;
+    }
+
+    .discountedPrice{
+        font-size: 2.2rem;
+    }
+    .actualPrice {
+        font-size: 1.1rem;
+    }
+    
+    .discountAmnt {
+        font-size: 1.5rem;
+    }
+
+    .buyNow{
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .head,.body{
+        padding: 5px;
+        padding-top: 0px;
+    }
+
+    .discountedPrice{
+        font-size: 2rem;
+    }
+    .actualPrice {
+        font-size: 1rem;
+    }
+    
+    .discountAmnt {
+        font-size: 1.2rem;
+    }
+
+    .pricingDiv{
+        padding: 10px;
+    }
+
+    .contentPoints ul{
+        padding-left: 10px;
+    }
+    .contentPoints ul li{
+        font-size: 1rem;
+    }
+
+    .courseAbout ul{
+        padding-left: 20px;
+    }
+}

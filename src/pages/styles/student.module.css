@@ -1,0 +1,301 @@
+.mainDiv {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+}
+
+.bodySection {
+    width: 80%;
+}
+
+.header {
+    background-color: rgba(44, 139, 185, 1);
+    padding: 10px 30px;
+    padding-top: 0px;
+    color: rgb(255, 255, 255);
+}
+
+.innerHeader {
+    display: flex;
+    position: relative;
+    top: 30px;
+}
+.secondHeader{
+    background-color: rgba(44, 139, 185, 1);
+    padding: 10px 30px;
+    color: rgb(255, 255, 255);
+}
+
+.mainDiv h1 {
+    font-size: 4.5rem;
+    font-weight: 500;
+    padding-left: 50px;
+}
+.header .normalHOne{
+    padding-left: 10px;
+}
+.header img {
+    width: 250px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
+
+.content {
+    padding: 50px;
+}
+
+.detailsFieldsDiv {
+    margin-bottom: 20px;
+}
+
+.detailsFieldsDiv p,
+.continueDiv p {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.detailsFieldsDiv {
+    width: 32%;
+}
+
+.detailsDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(159, 219, 223, 1);
+    width: 90%;
+}
+
+.input * {
+    font-size: 30px;
+}
+
+.input input {
+    border: none;
+    font-size: 2rem;
+    outline: none;
+    background-color: transparent;
+    width: 85%;
+}
+
+
+.continueDiv {
+    margin-top: 50px;
+}
+
+.videosList {
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    flex-wrap: wrap;
+    overflow-y: hidden;
+    max-height: 302px;
+    transition: all 300ms ease-in-out;
+    border-radius: 10px;
+}
+
+.videosList * {
+    width: 480px;
+    aspect-ratio: 1.7;
+    border-radius: 10px;
+    background-color: rgb(10, 10, 10);
+    margin-bottom: 20px;
+}
+
+.menu {
+    display: none;
+    position: absolute;
+    z-index: 4;
+    padding: 0px;
+    color: white;
+    border: none;
+    background-color: transparent;
+    right: 30px;
+    top: 70px;
+}
+.menu * {
+    font-size: 50px;
+}
+
+/* Courses Page */
+
+.viewMore {
+    margin-top: 15px;
+    padding: 10px 15px;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(65, 185, 212, 1);
+    letter-spacing: 1px;
+}
+
+.viewMore:hover {
+    background-color: rgba(2, 73, 81, 1);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1225px) {
+    .detailsFieldsDiv {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    .header {
+        margin-top: -10px;
+    }
+
+    .mainDiv h1 {
+        font-size: 4rem;
+    }
+
+    .header img {
+        width: 200px;
+    }
+
+    .content {
+        padding-top: 10px;
+    }
+
+    .input {
+        width: 80%;
+    }
+
+    .input input {
+        width: 100%;
+    }
+
+    .detailsFieldsDiv p {
+        font-size: 2rem;
+    }
+
+    .continueDiv p {
+        font-size: 2.2rem;
+    }
+}
+
+@media screen and (max-width: 925px) {
+    .bodySection {
+        width: 78%;
+    }
+
+    .input {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 905px) {
+    .detailsFieldsDiv {
+        width: 50%;
+    }
+
+    .content {
+        padding: 30px 20px;
+        padding-top: 10px;
+    }
+
+    .header {
+        margin-top: -15px;
+    }
+
+    .mainDiv h1 {
+        font-size: 3.2rem;
+    }
+
+    .header img {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .bodySection {
+        width: 100%;
+    }
+
+    .menu {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+    .header {
+        margin-top: 0px;
+    }
+
+    .innerHeader {
+        top: 15px;
+    }
+    .secondHeader{
+        padding-top: 38px;
+    }
+
+    .mainDiv h1 {
+        font-size: 2.8rem;
+        padding-left: 20px;
+        margin: auto 0px;
+        box-sizing: border-box;
+    }
+
+    .header img {
+        width: 100px;
+    }
+
+    .content {
+        padding-top: 10px;
+    }
+
+    .menu{
+        top: 45px;
+    }
+
+}
+
+@media screen and (max-width: 535px) {
+
+    .menu{
+        right: 15px;
+    }
+
+}
+@media screen and (max-width: 500px) {
+    .detailsFieldsDiv {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .header {
+        padding: 10px;
+        padding-top: 0px;
+    }
+    .secondHeader{
+        padding: 46px 10px 10px 10px;
+    }
+
+    .mainDiv h1 {
+        font-size: 2.2rem;
+    }
+    .normalHOne{
+        font-size: 2.8rem;
+        padding-left: 0px;
+    }
+    .content {
+        padding: 0px 10px 20px 10px;
+    }
+}
+@media screen and (max-width: 420px) {
+    .mainDiv h1{
+        width: 57%;
+    }
+}

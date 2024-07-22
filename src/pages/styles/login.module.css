@@ -1,0 +1,121 @@
+.mainDiv{
+    /* background-image: linear-gradient(132deg, rgba(174, 221, 229, 1),rgba(16, 164, 176, 1)); */
+    background-color: white;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
+.loginBox{
+    background-color: rgba(221, 221, 221, 0.7);
+    border-radius: 10px;
+    padding: 50px;
+    text-align: center;
+    width: 50%;
+}
+.loginBox h2{
+    margin-top: 0px;
+    font-size: 3rem;
+    font-weight: 500;
+}
+.fieldsDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fieldsDiv input{
+    width: 400px;
+    font-size: 1.5rem;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    color: rgb(0,0,0);
+}
+.fieldsDiv *{
+    margin: 10px 0px;
+}
+.submit{
+    border: none;
+    padding: 10px 15px;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    background-color: rgba(16, 164, 176, 1);
+}
+.submit:hover{
+    background-color: rgba(2, 73, 81, 1);
+    cursor: pointer;
+}
+
+
+.dualInputs{
+    display: flex;
+    justify-content: space-between;
+    width: 415px;
+}
+.dualInputs input{
+    width: 43%;
+    margin: 0px;
+}
+
+@media screen and (max-width: 1300px) {
+    .mainDiv{
+        padding: 200px 50px;
+    }
+}
+@media screen and (max-width: 1090px) {
+    .loginBox{
+        width: 65%;
+    }
+}
+@media screen and (max-width: 800px) {
+    .loginBox{
+        width: 100%;
+    }
+    .mainDiv{
+        padding: 100px 10px
+    }
+}
+@media screen and (max-width: 570px) {
+    .mainDiv{
+        padding: 0px;
+    }
+    .loginBox{
+        border-radius: 0px;
+        padding: 150px 25px;
+        background-color: rgb(255,255,255,0.5);
+    }
+}
+@media screen and (max-width: 475px) {
+    .loginBox{
+        padding: 150px 10px;
+    }
+    .fieldsDiv input{
+        width: 100%;
+        font-size: 1.2rem;
+        margin: 10px 10px;
+        box-sizing: border-box;
+    }
+    .dualInputs{
+        width: 100%;
+    }
+    .dualInputs input{
+        width: 48%;
+        margin: 0px;
+    }
+
+    .loginBox h2{
+        font-size: 2.5rem;
+    }
+
+}
+
+@media screen and (max-width: 380px) {
+    .dualInputs{
+        flex-direction: column;
+        margin: 0px;
+    }
+    .dualInputs input{
+        width: 100%;
+        margin: 10px 0px;
+    }
+}

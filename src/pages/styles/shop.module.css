@@ -1,0 +1,134 @@
+.mainDiv{
+    
+}
+.mainDiv h1{
+    font-size: 4rem;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.mainDiv h2{
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.shopTop{
+    padding: 50px 100px;
+    text-align: center;
+}
+.shopTop button{
+    padding: 15px 20px;
+    background-color: rgba(16, 164, 176, 1);
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    color: rgb(255,255,255);
+    border: none;
+    border-radius: 5px;
+}
+.shopTop button:hover{
+    background-color: rgba(2, 73, 81, 1);
+    cursor: pointer;
+}
+.courses{
+    padding: 50px 50px;
+}
+.one{
+    background-color: rgb(246, 253, 255);
+
+}
+.coursesList{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto;
+}
+.testiBoxList{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.testiBox{
+    border: 4px solid rgb(0,0,0);
+    width: 300px;
+    padding: 20px;
+    border-radius: 15px;
+}
+.testiBox p{
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-top: 0px;
+}
+.testiBox span{
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.clientAbout{
+     display: flex;
+     align-items: center;
+}
+.clientAbout img{
+    width: 60px;
+    border-radius: 50%;
+    border: 1px solid rgb(0,0,0,0.5);
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 1225px) {
+    .testiBox{
+        width: 40%;
+    }
+    .testiBox:last-child{
+        width: 100%;
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .shopTop{
+        padding: 50px;
+    }
+    
+}
+@media screen and (max-width: 840px) {
+    .shopTop h1{
+        font-size: 3.5rem;
+    }
+    .shopTop button{
+        font-size: 1.2rem;
+    }
+}
+@media screen and (max-width: 766px) {
+    .courses{
+        padding: 50px 20px;
+    }
+
+}
+@media screen and (max-width: 690px) {
+    .testiBox:last-child{
+        margin-top: 15px;
+    }
+    .testiBox{
+        width: 100%;
+        margin: 15px 0px;
+    }
+
+    .courses h2{
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .shopTop h1{
+        font-size: 3rem;
+    }
+    .shopTop{
+        padding: 50px 20px;
+    }
+    .courses{
+        padding: 30px 10px;
+    }
+    .coursesList{
+        padding: 0px;
+    }
+}

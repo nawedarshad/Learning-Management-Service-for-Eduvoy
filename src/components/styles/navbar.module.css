@@ -1,0 +1,101 @@
+.navbar{
+    background-color: rgba(0, 49, 53, 1);
+    color: #ffff;
+    position: relative;
+    z-index: 5;
+}
+.mainNavbar{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.secondaryNavbar{
+    max-height: 0px;
+    box-sizing: border-box;
+    overflow-y: hidden;
+    background-color: rgb(0, 27, 30);
+    transition: all 500ms ease-in-out;
+}
+
+.menuBtn {
+    display: none;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.mainNavbar h2 {
+    font-size: 2.8rem;
+    font-weight: 400;
+    margin: 0px 0px;
+}
+
+.navLinks a, .secondaryNavLinks a {
+    padding: 0px 20px;
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: rgb(255,255,255);
+}
+
+.secondaryNavLinks{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+}
+
+@media screen and (max-width: 1130px) {
+    .navLinks a {
+        padding: 0px 15px;
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width: 950px) {
+    .navLinks{
+        display: none;
+    }
+    .menuBtn {
+        display: flex;
+    }
+    .menuBtn *{
+        font-size: 50px;
+    }
+}
+@media screen and (max-width: 760px) {
+    .secondaryNavLinks a{
+        font-size: 1.5rem;
+    }
+    .secondaryNavLinks{
+        padding: 15px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .secondaryNavLinks a{
+        padding: 0px 10px;
+    }
+}
+@media screen and (max-width: 505px) {
+    .mainNavbar h2 {
+        font-size: 2.3rem;
+    }
+    .mainNavbar{
+        padding: 20px 10px;
+    }
+}
+@media screen and (max-width: 490px) {
+    .secondaryNavLinks{
+        flex-wrap: wrap;
+        padding: 15px 20px;
+    }
+    .secondaryNavLinks a{
+        padding: 0px 15px;
+    }
+}
+@media screen and (max-width: 360px) {
+    .mainNavbar h2 {
+        font-size: 2rem;
+    }
+    .menuBtn *{
+        font-size: 40px;
+    }
+}

@@ -1,0 +1,542 @@
+.homeMain {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.topBanner {
+    width: 100%;
+    position: relative;
+}
+
+.headingVector {
+    width: 60%;
+    z-index: 2;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    position: absolute;
+    background-color: rgba(174, 221, 229, 1);
+    left: -280px;
+    top: -100px;
+}
+
+.two {
+    display: none;
+}
+
+.content {
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content .text {
+    position: inherit;
+    z-index: 3;
+}
+
+.text h1 {
+    font-size: 4rem;
+    font-weight: 400;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.content .text button {
+    padding: 20px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.8rem;
+    border-radius: 10px;
+    outline: none;
+    background-color: rgba(16, 164, 176, 1);
+    letter-spacing: 1px;
+}
+.content .text button:hover{
+    background-color: rgba(2, 73, 81, 1);
+    cursor: pointer;
+}
+
+.img {
+    background-image: url(../../../public/home_banner.jpg);
+    width: 1800px;
+    aspect-ratio: 1.5;
+    z-index: 1;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+.cause {
+    padding: 50px 200px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: -50px;
+    background-color: rgb(255, 255, 255);
+    z-index: 3;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cause h2 {
+    font-size: 3rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.cause p {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    line-height: 38px;
+}
+
+.cause .divider {
+    margin-bottom: 20px;
+    background-color: rgba(0, 49, 53, 1);
+    width: 200px;
+    height: 5px;
+    border-radius: 5px;
+}
+
+.services {
+    padding: 50px;
+    background-color: rgb(255, 255, 255);
+}
+
+.services h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.servicesContent {
+    display: flex;
+    align-items: center;
+}
+
+.servicesContent img {
+    width: 50%;
+}
+
+.servicesText img {
+    display: none;
+}
+
+.servicesText h3 {
+    font-size: 2.2rem;
+    font-weight: 500;
+}
+
+.servicesText p {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    line-height: 35px;
+}
+
+.servicesText button {
+    border: none;
+    padding: 10px 15px;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    background-color: rgba(16, 164, 176, 1);
+}
+.servicesText button:hover{
+    background-color: rgba(2, 73, 81, 1);
+    cursor: pointer;
+}
+
+.capabilities {
+    padding: 20px 200px;
+    padding-right: 100px;
+}
+
+.capabilities h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    /* text-align: center; */
+    margin-bottom: 10px;
+}
+
+.capabilitiesContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.capabilitiesText ul li {
+    font-size: 1.8rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 60px;
+}
+
+.capabilitiesContent img {
+    width: 50%;
+}
+
+@media screen and (max-width: 1430px) {
+    .content {
+        padding-right: 30px;
+    }
+
+    .headingVector {
+        left: -200px;
+    }
+
+    .text h1 {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+}
+
+@media screen and (max-width: 1320px) {
+    .text h1 {
+        font-size: 3.7rem;
+    }
+
+    .content {
+        padding-left: 50px;
+    }
+
+    .headingVector {
+        top: -50px;
+    }
+
+    .capabilities {
+        padding: 70px 100px;
+    }
+
+    .capabilities h2 {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .capabilities {
+        padding-right: 50px;
+    }
+}
+
+@media screen and (max-width: 1190px) {
+    .capabilitiesContent img {
+        transform: scale(1.5);
+        width: 35%;
+    }
+
+    .capabilities {
+        padding-right: 100px;
+    }
+}
+
+@media screen and (max-width: 1160px) {
+    .text h1 {
+        font-size: 3rem;
+    }
+
+    .content .text button {
+        font-size: 1.5rem;
+    }
+
+    .cause {
+        padding: 50px 100px;
+    }
+
+    .cause h2 {
+        font-size: 2.5rem;
+    }
+
+    .cause p {
+        font-size: 1.2rem;
+    }
+
+
+
+
+}
+
+@media screen and (max-width: 1080px) {
+    .headingVector {
+        top: -20px;
+    }
+
+    .capabilitiesText ul li {
+        font-size: 1.5rem;
+        line-height: 50px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .img {
+        width: 1200px;
+    }
+
+    .headingVector {
+        width: 70%;
+        top: -50px;
+    }
+
+    .capabilities {
+        padding: 60px 50px;
+    }
+
+}
+
+@media screen and (max-width: 850px) {
+    .text h1 {
+        font-size: 2.7rem;
+    }
+
+    .headingVector {
+        top: -20px;
+    }
+
+    .services,
+    .capabilities {
+        padding: 50px 30px;
+    }
+
+    .capabilities {
+        position: relative;
+    }
+
+    .capabilitiesContent img {
+        position: absolute;
+        z-index: 1;
+        right: 30px;
+        top: auto;
+    }
+
+    .capabilitiesText {
+        position: relative;
+        z-index: 3;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .content {
+        flex-direction: column-reverse;
+        padding: 30px;
+    }
+
+    .img {
+        width: 100%;
+    }
+
+    .text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .text h1 {
+        text-align: center;
+    }
+
+    .img {
+        background-image: url(../../../public/home-banner-clip.png);
+    }
+
+    .headingVector {
+        opacity: 0.8;
+        z-index: 3;
+        left: -16%;
+        bottom: -20%;
+        top: auto;
+    }
+
+    .two {
+        display: block;
+        right: -16%;
+        left: auto;
+        bottom: auto;
+        top: -10%;
+        z-index: 1;
+    }
+
+    .content .text {
+        position: relative;
+        top: -60px;
+    }
+
+    .text h1 {
+        font-size: 3rem;
+    }
+
+    .cause {
+        padding: 50px;
+    }
+
+
+
+    .servicesText h3 {
+        font-size: 2rem;
+    }
+
+    .servicesText p {
+        font-size: 1.2rem;
+        line-height: 30px;
+    }
+
+    .capabilitiesText {
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .cause {
+        padding: 30px;
+    }
+
+    .cause h2 {
+        font-size: 2rem;
+        margin-bottom: 15px;
+    }
+
+    .services h2 {
+        font-size: 2.5rem;
+    }
+
+    .servicesContent img {
+        display: none;
+    }
+
+    .servicesText {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .servicesText img {
+        width: 60%;
+        display: block;
+    }
+
+    .capabilities h2 {
+        font-size: 2.8rem;
+        text-align: center;
+    }
+
+    .capabilitiesText {
+        width: 100%;
+    }
+
+    .capabilitiesContent img {
+        right: auto;
+        left: 30%;
+        width: 60%;
+        opacity: 0.3;
+    }
+}
+
+@media screen and (max-width: 603px) {
+    .text h1 {
+        font-size: 2.5rem;
+    }
+
+    .content .text button {
+        padding: 12px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .services h2 {
+        font-size: 2rem;
+    }
+
+    .servicesText h3 {
+        font-size: 1.8rem;
+        color: rgb(0, 0, 0, 0.8);
+    }
+
+    .servicesText p {
+        font-size: 1rem;
+        line-height: 25px;
+    }
+
+    .servicesText button {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .text h1 {
+        font-size: 2rem;
+    }
+
+    .content .text button {
+        font-size: 1.2rem;
+    }
+
+    .content .text {
+        top: -30px;
+        padding-bottom: 30px;
+    }
+
+    .cause h2 {
+        font-size: 1.8rem;
+    }
+
+    .cause p {
+        font-size: 1rem;
+        line-height: 28px;
+    }
+
+    .capabilitiesText ul li {
+        font-size: 1.2rem;
+        line-height: 30px;
+    }
+    .capabilities h2{
+        font-size: 2rem;
+    }
+    .capabilitiesContent img{
+        width: 50%;
+        left: auto;
+        right: 10px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .services,.capabilities {
+        padding: 30px 10px;
+    }
+    .capabilitiesContent img{
+        position: relative;
+        width: 50%;
+        right: auto;
+        opacity: 1;
+        margin-top: 30px;
+    }
+    .capabilitiesContent{
+        flex-direction: column-reverse;
+    }
+    .capabilitiesText ul{
+        padding-left: 30px;
+    }
+}
+
+@media screen and (max-width: 373px) {
+
+    .content,
+    .cause {
+        padding: 10px 5px;
+    }
+
+    .text h1,
+    .cause h2 {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    .content .text button {
+        font-size: 1rem;
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+}

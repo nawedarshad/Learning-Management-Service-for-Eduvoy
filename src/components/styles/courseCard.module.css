@@ -1,0 +1,60 @@
+.mainDiv{
+    width: 300px;
+    border-radius: 10px;
+    background-color: rgb(255,255,255);
+    border: 1px solid rgb(0,0,0,0.5);
+    transition: all 300ms ease-in-out;
+    margin: 0px 15px;
+}
+.mainDiv:first-child{
+    margin-left: 0px;
+}
+.mainDiv:hover{
+    box-shadow: 1px 1px 17px 0px rgb(0, 0, 0, 0.3);
+}
+.courseImg{
+    width: 300px;
+    aspect-ratio: 1.4;
+    background-color: rgb(171, 171, 171);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-image: url(../../../public/card_sample_image.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.courseContent{
+    padding: 10px;
+}
+.courseContent h3{
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 15px 0px;
+}
+.courseContent p{
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.prices{
+    font-size: 2.5rem;
+    color: rgb(26, 78, 162);
+    font-weight: 500;
+}
+.prices span{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+@media screen and (max-width: 400px) {
+    .mainDiv,.courseImg{
+        width: 280px;
+    }
+    .courseContent h3{
+        font-size: 1.8rem;
+    }
+    .prices{
+        font-size: 2.2rem;
+    }
+    .prices span{
+        font-size: 1rem;
+    }
+}

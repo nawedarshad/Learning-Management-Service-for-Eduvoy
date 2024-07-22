@@ -1,0 +1,96 @@
+.mainDiv{
+    background-color: rgba(174, 221, 229, 1);
+    padding: 50px 100px;
+}
+.mainDiv h2{
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.navButtons{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.navButtons *{
+    font-size: 30px;
+}
+
+.testimonyCard{
+    padding: 50px;
+}
+.clientDetails{
+    display: flex;
+    align-items: center;
+}
+.clientDetails img{
+    width: 60px;
+    border-radius: 50%;
+    border: 1px solid rgb(0,0,0,0.5);
+}
+.clientAbout{
+    padding-left: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.clientAbout span{
+    font-size: 1.2rem;
+}
+.clientName{
+    font-weight: 600;
+}
+
+.testimonyCard p{
+    font-size: 1.5rem;
+    line-height: 35px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 950px) {
+    .mainDiv{
+        padding: 50px;
+    }
+}
+@media screen and (max-width: 850px) {
+    .mainDiv{
+        padding: 50px 30px;
+    }
+    
+}
+@media screen and (max-width: 750px) {
+    .testimonyCard p{
+        font-size: 1.2rem;
+        line-height: 30px;
+    }
+}
+@media screen and (max-width: 750px) {
+    .testimonyCard{
+        padding: 30px;
+    }
+}
+@media screen and (max-width: 605px) {
+    .mainDiv h2{
+        font-size: 2.5rem;
+    }
+}
+@media screen and (max-width: 515px) {
+    .testimonyCard{
+        padding: 10px;
+        padding-top: 30px;
+    }
+    .mainDiv h2{
+        font-size: 2rem;
+    }
+    .testimonyCard p{
+        font-size: 1rem;
+        line-height: 25px;
+        font-weight: 400;
+    }
+}
+@media screen and (max-width: 400px) {
+    .mainDiv{
+        padding: 30px 10px;
+    }
+}
