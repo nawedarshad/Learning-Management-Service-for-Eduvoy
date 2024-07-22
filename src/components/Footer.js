@@ -14,22 +14,22 @@ function Footer() {
                 </a>
               </li>
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary">
+                <a href="#" class="nav-link p-0">
                   Features
                 </a>
               </li>
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary">
+                <a href="#" class="nav-link p-0">
                   Pricing
                 </a>
               </li>
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary">
+                <a href="#" class="nav-link p-0">
                   FAQs
                 </a>
               </li>
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary">
+                <a href="#" class="nav-link p-0">
                   About
                 </a>
               </li>
@@ -40,27 +40,27 @@ function Footer() {
             <h5>Section</h5>
             <ul class="nav flex-column">
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary">
+                <a href="#" class="nav-link p-0">
                   Home
                 </a>
               </li>
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary">
+                <a href="#" class="nav-link p-0">
                   Features
                 </a>
               </li>
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary">
+                <a href="#" class="nav-link p-0">
                   Pricing
                 </a>
               </li>
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary">
+                <a href="#" class="nav-link p-0">
                   FAQs
                 </a>
               </li>
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary">
+                <a href="#" class="nav-link p-0">
                   About
                 </a>
               </li>
@@ -71,27 +71,27 @@ function Footer() {
             <h5>Section</h5>
             <ul class="nav flex-column">
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary">
+                <a href="#" class="nav-link p-0">
                   Home
                 </a>
               </li>
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary">
+                <a href="#" class="nav-link p-0">
                   Features
                 </a>
               </li>
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary">
+                <a href="#" class="nav-link p-0">
                   Pricing
                 </a>
               </li>
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary">
+                <a href="#" class="nav-link p-0">
                   FAQs
                 </a>
               </li>
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary">
+                <a href="#" class="nav-link p-0">
                   About
                 </a>
               </li>
@@ -121,7 +121,7 @@ function Footer() {
         </div>
 
         <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-          <p>© 2024 Company, Inc. All rights reserved.</p>
+          <p>© 2024 Eduvoy, Inc. All rights reserved.</p>
           <ul class="list-unstyled d-flex">
             <li class="ms-3">
               <a class="link-body-emphasis" href="#">
